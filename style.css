@@ -1,0 +1,73 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1a1a1a;
+    color: #00ff00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    background-color: #000;
+    border: 2px solid #00ff00;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    color: #00ff00;
+    text-shadow: 0 0 5px #00ff00;
+}
+
+.game-output {
+    background-color: #0d0d0d;
+    border: 1px solid #00cc00;
+    padding: 15px;
+    min-height: 200px;
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+}
+
+#user-input {
+    flex-grow: 1;
+    padding: 10px;
+    background-color: #0d0d0d;
+    border: 1px solid #00cc00;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+
+#user-input:focus {
+    outline: none;
+    border-color: #00ff00;
+    box-shadow: 0 0 5px rgba(0, 255, 0, 0.7);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #006600;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #008800;
+    box-shadow: 0 0 5px rgba(0, 255, 0, 0.7);
+}
